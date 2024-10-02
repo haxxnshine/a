@@ -1,15 +1,13 @@
 plugins {
-    alias(libs.plugins.androidApplication)
-    alias(libs.plugins.jetbrainsKotlinAndroid)
+
 }
 
 android {
-    namespace = "com.haeun.apple"
-    compileSdk = 34
 
-    defaultConfig {
-        applicationId = "com.haeun.apple"
-        minSdk = 34
+}
+
+android {
+
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
